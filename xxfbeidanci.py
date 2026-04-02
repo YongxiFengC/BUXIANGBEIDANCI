@@ -8,7 +8,7 @@ from pathlib import Path
 class WordQuizApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("英语单词测验助手")
+        self.root.title("不喜欢背任何东西！")
         self.root.geometry("900x700")  # 增大窗口尺寸
         self.root.resizable(True, True)
         
